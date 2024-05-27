@@ -1,0 +1,18 @@
+.header-background {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(255, 126, 95, 1) 0%, rgba(254, 180, 123, 1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+
+}
+
+.header-background svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
